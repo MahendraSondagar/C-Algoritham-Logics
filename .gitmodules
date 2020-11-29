@@ -4,3 +4,6 @@
 [submodule "miscellaneous"]
 	path = miscellaneous
 	url = https://github.com/MahendraSondagar/miscellaneous.git
+[submodule "preprocessor"]
+	path = preprocessor
+	url = https://github.com/MahendraSondagar/preprocessor.git
