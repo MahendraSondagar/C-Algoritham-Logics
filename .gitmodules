@@ -1,3 +1,6 @@
 [submodule "Function_ptr"]
 	path = Function_ptr
 	url = https://github.com/MahendraSondagar/Function_ptr.git
+[submodule "miscellaneous"]
+	path = miscellaneous
+	url = https://github.com/MahendraSondagar/miscellaneous.git
