@@ -12,28 +12,28 @@ For example, in the following program, MyConstructor() is called before main() a
 
 /* Apply the constructor attribute to myStartupFun() so that it 
 	is executed before main() */
-void myStartupFun (void) __attribute__ ((constructor)); 
+void MyConstructor (void) __attribute__ ((constructor)); 
 
 
 /* Apply the destructor attribute to myCleanupFun() so that it 
 is executed after main() */
-void myCleanupFun (void) __attribute__ ((destructor)); 
+void MyDestructor (void) __attribute__ ((destructor)); 
 
 
 /* implementation of myStartupFun */
-void myStartupFun (void) 
+void MyConstructor (void) 
 { 
-	printf ("startup code before main()\n"); 
+	printf ("Inside : %s\r\n", __func__); 
 } 
 
 /* implementation of myCleanupFun */
-void myCleanupFun (void) 
+void MyDestructor (void) 
 { 
-	printf ("cleanup code after main()\n"); 
+	printf("Inside : %s\r\n", __func__); 
 } 
 
 int main (void) 
 { 
-	printf ("hello\n"); 
+	printf("Inside: %s\r\n", __func__);
 	return 0; 
 } 
