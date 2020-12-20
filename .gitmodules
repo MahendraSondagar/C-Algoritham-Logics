@@ -7,3 +7,6 @@
 [submodule "preprocessor"]
 	path = preprocessor
 	url = https://github.com/MahendraSondagar/preprocessor.git
+[submodule "State_machine"]
+	path = State_machine
+	url = https://github.com/MahendraSondagar/State_machine
