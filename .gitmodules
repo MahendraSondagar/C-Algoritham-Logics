@@ -10,3 +10,6 @@
 [submodule "State_machine"]
 	path = State_machine
 	url = https://github.com/MahendraSondagar/State_machine
+[submodule "TypeConversion"]
+	path = TypeConversion
+	url = https://github.com/MahendraSondagar/TypeConversion
